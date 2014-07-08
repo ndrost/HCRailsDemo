@@ -6,18 +6,6 @@
 	<td><%= @account.name %></td>
 </tr>
 <tr>
-	<td>Ticker Symbol: </td>
-	<td><%= @account.tickersymbol %></td>
-</tr>
-<tr>
-	<td>Phone Number: </td>
-	<td><%= @account.phone %></td>
-</tr>
-<tr>
-	<td>Website: </td>
-	<td><a href=<%= @account.website %>><%= @account.website %></a></td>
-</tr>
-<tr>
 	<td>Street Address: </td>
 	<td><%= @account.billingstreet %></td>
 </tr>
@@ -36,10 +24,6 @@
 <tr>
 	<td>Country: </td>
 	<td><%= @account.billingcountry %></td>
-</tr>
-<tr>
-	<td>Last Modified: </td>
-	<td><%= @account.lastmodifieddate %></td>
 </tr>
 </table>
 <%= link_to 'Edit', edit_account_path(@account) %> |
