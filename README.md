@@ -41,5 +41,3 @@ After your first sync, your postgres table should look like this (use `\d salesf
 
 Launch the app
 
-Profit
-
